@@ -8,6 +8,18 @@ The selected files will be saved in the "out/" directory under the same name.
 ## Prerequisites
 - Python 3.x must be installed on your system.
 
+## All
+
+### Installation
+1. Clone this repository on your local machine.
+2. Make sure Python 3.x is installed.
+3. Run `python3.x solver.py` to launch the application.
+
+### Usage
+1. Run the `python3.x solver.py` command in the project root directory.
+2. Select the Excel files you wish to unprotect.
+3. The selected files will be saved in the "out/" directory under the same unprotected name.
+
 ## Under Linux
 
 ### Installation
@@ -25,10 +37,10 @@ The selected files will be saved in the "out/" directory under the same name.
 ### Installation
 1. Clone this repository on your local machine.
 2. Make sure Python 3.x is installed.
-3. Run `python3.x solver.py` to launch the application.
+3. Start `launcher.bat` to launch the application.
 
 ### Usage
-1. Run `python3.x solver.py` to launch the application.
+1. Run `launcher.bat` to launch the application.
 2. Select the Excel files you wish to unprotect.
 3. The selected files will be saved in the "out/" directory under the same unprotected name.
 

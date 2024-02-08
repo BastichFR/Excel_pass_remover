@@ -52,6 +52,7 @@ def processing(file):
         remove_xml_tag(file)
 
     # .xml -> .zip
+    zip_ref.close()
     overwrite_zip_file(temp_path, extracted_files)
 
     # .zip -> .xlsx
@@ -60,7 +61,6 @@ def processing(file):
 
     print(f"Processing ended (PID = {os.getpid()}) : {os.path.basename(file)}")
 
-    zip_ref.close()
     os.chdir(actual_path)
 
 

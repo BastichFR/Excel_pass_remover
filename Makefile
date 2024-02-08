@@ -16,4 +16,4 @@ check_python:
 	@echo " Python is installed."
 	@echo " ============================================== "
 	
-.PHONY: check_python
+.PHONY: run info check_python

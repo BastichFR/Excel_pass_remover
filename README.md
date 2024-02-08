@@ -45,11 +45,12 @@ The selected files will be saved in the "out/" directory under the same name.
 3. The selected files will be saved in the "out/" directory under the same unprotected name.
 
 ## Project structure
-- `solver.py`   : Main script which manages the de-protection of Excel files.
-- `src/`        : Directory containing the Python modules used by the main script.
-- `out/`        : Directory where unprotected Excel files will be saved.
-- `Makefile`    : Make file to automate verification of Python installation and application execution.
-- `README.md`   : This file.
+- `solver.py`     : Main script which manages the de-protection of Excel files.
+- `src/`          : Directory containing the Python modules used by the main script.
+- `out/`          : Directory where unprotected Excel files will be saved.
+- `Makefile`      : **<LINUX>**   Make  file to automate verification of Python installation and application execution.
+- `launcher.bat`  : **<WINDOWS>** Batsh file to automate verification of Python installation and application execution.
+- `README.md`     : This file.
 
 ## Author
 [BastichFR](https://github.com/BastichFR/)
